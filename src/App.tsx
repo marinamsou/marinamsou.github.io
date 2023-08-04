@@ -1,16 +1,12 @@
-import styled from 'styled-components';
+import Typography from '@mui/material/Typography';
 
 import GlobalStyles from 'styles';
-
-const Title = styled.h1`
-  color: green;
-`;
 
 function App() {
   return (
     <main>
       <GlobalStyles />
-      <Title>My app</Title>
+      <Typography variant="h1">My app</Typography>
     </main>
   );
 }

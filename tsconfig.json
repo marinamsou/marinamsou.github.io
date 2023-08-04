@@ -15,10 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "paths": {
+      "styles/*": ["styles/*"],
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+    }
   },
-  "include": ["src"],
-  "paths": {
-    "styles/*": ["styles/*"]
-  }
+  "include": ["src"]
 }
